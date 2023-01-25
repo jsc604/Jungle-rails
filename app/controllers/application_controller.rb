@@ -6,6 +6,11 @@ class ApplicationController < ActionController::Base
 
   private
 
+  def total_products
+    Product.count
+  end
+  helper_method :total_products
+
   def order_total_cents
     @line_items.sum(&:total_price_cents)
   end
