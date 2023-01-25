@@ -6,6 +6,11 @@ class ApplicationController < ActionController::Base
 
   private
 
+  def order_total_cents
+    @line_items.sum(&:total_price_cents)
+  end
+  helper_method :order_total_cents
+
   def cart
     @cart ||= cookies[:cart].present? ? JSON.parse(cookies[:cart]) : {}
   end
