@@ -1,0 +1,28 @@
+<header class="page-header">
+  <h1>Login!</h1>
+</header>
+
+<%= form_tag '/login' do %>
+  <table>
+    <tr>
+      <td>Email:</td>
+      <td><%= text_field_tag :email %></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><%= password_field_tag :password %></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <%= submit_tag "Submit", class: "btn btn-success", style: "margin-top: 10px;" %>
+        <% if flash[:error] %>
+          <div class="alert alert-danger" style="margin-top: 10px; width: 16rem; text-align: center;">
+            <%= flash[:error] %>
+          </div>
+        <% end %>
+      </td>
+    </tr>
+  </table>
+<% end %>
+

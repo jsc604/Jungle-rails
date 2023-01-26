@@ -1,0 +1,28 @@
+<header class="page-header">
+  <h1>Signup!</h1>
+</header>
+
+<%= form_for :user, url: '/users' do |f| %>
+  <table>
+    <tr>
+      <td>Name:</td>
+      <td><%= f.text_field :name, required: true%></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><%= f.text_field :email, required: true%></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><%= f.password_field :password, required: true%></td>
+    </tr>
+    <tr>
+      <td>Password Confirmation:</td>
+      <td><%= f.password_field :password_confirmation, required: true%></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><%= f.submit "Submit", class: "btn btn-success", style: "margin-top: 10px;" %></td>
+    </tr>
+  </table>
+<% end %>
