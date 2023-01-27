@@ -4,7 +4,7 @@
     <h1>Admin &raquo; New Category</h1>
   </header>
 
-  <div class="row">
+  <div class="well">
     <%= link_to 'All Categories', [:admin, :categories], class: 'btn btn-info' %>
   </div>
 
@@ -28,7 +28,7 @@
           <%= form.text_field :name, class: 'form-control' %>
         </div>
        
-        <%= form.submit 'Create Category', class: 'btn btn-primary' %>
+        <%= form.submit 'Create Category', class: 'btn btn-success' %>
       <% end %>
     </div>
   </div>
