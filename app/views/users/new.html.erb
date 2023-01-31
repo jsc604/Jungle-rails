@@ -4,7 +4,7 @@
 
 <%= form_for :user, url: '/users' do |f| %>
 
-<% if flash[:error].present? %>
+<% if flash[:error] %>
   <div class="alert alert-danger" style="margin-top: 10px; width: 18rem; text-align: center;"><%= flash[:error] %></div>
 <% end %>
 

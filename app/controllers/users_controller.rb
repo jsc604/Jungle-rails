@@ -9,10 +9,15 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      flash[:error] = 'Email has already been taken'
+      if user.errors[:email].include?("has already been taken")
+        flash[:error] = 'Email has already been taken'
+      else
+        flash[:error] = 'Password is too short'
+      end
       redirect_to '/signup'
     end
   end
+  
 
   private
   def user_params
