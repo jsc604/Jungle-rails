@@ -5,7 +5,6 @@ RSpec.describe Product, type: :model do
     before do
       @category = Category.create(:name => "new category")
       @product = Product.new(:name => "test plant", :price_cents => 2000, :quantity => 10, :category_id => @category.id)
-      @product.save!
     end
 
     it "saves successfully" do
