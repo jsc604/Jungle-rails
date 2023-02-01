@@ -1,4 +1,4 @@
-describe('Junge app', () => {
+describe('add to cart', () => {
   beforeEach(() => {
     cy.visit('/')
   });
@@ -7,7 +7,7 @@ describe('Junge app', () => {
     cy.contains('h1', 'The Jungle')
   });
 
-  it('There are profucts on the page', () => {
+  it('There are products on the page', () => {
     cy.get('.products article').should('be.visible');
   });
   
