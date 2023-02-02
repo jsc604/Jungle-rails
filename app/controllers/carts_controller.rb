@@ -1,5 +1,9 @@
 class CartsController < ApplicationController
 
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+  
   def show
     if cart.empty?
       flash[:notice] = "Your cart is currently empty."

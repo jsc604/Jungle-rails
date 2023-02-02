@@ -1,21 +1,18 @@
-# Jungle
+# Jungle - An E-Commerce Experience!
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+Introducing Jungle, the e-commerce website that brings the shopping experience to a whole new level. Built using Ruby on Rails, Cypress, RSpec, and SCSS, Jungle offers a fast, secure, and engaging platform for shopping online.
 
-## Setup
+Jungle is equipped with secure Stripe payments, giving customers the ability to make purchases with confidence. The integration of gems such as money-rails and bcrypt further enhances the security of the platform, ensuring that sensitive information remains protected.
 
-1. Run `bundle install` to install dependencies
-2. Create `config/database.yml` by copying `config/database.example.yml`
-3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
-4. Run `bin/rails db:reset` to create, load and seed db
-5. Create .env file based on .env.example
-6. Sign up for a Stripe account
-7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
+Jungle offers customers the flexibility to checkout as a guest or create an account for a more personalized experience.
 
-## Database
+For the administrators, Jungle has an exclusive dashboard that is only accessible with the admin login. This dashboard allows administrators to manage and update items and launch sales.
 
-If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
+In short, Jungle is a simple and high-quality e-commerce platform that provides a seamless and engaging shopping experience for customers and a powerful set of tools for administrators.
+
+Below is a demonstration of how the site works and some screen shots:
+
+
 
 ## Stripe Testing
 
@@ -25,7 +22,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
-- Rails 6.1 [Rails Guide](http://guides.rubyonrails.org/v6.1/)
+- Rails 6.1
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe

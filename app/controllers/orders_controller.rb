@@ -1,7 +1,12 @@
 class OrdersController < ApplicationController
 
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+
   def show
     @order = Order.find(params[:id])
+    puts params[:id]
     @line_items = @order.line_items
   end
 
@@ -31,7 +36,7 @@ class OrdersController < ApplicationController
     Stripe::Charge.create(
       source:      params[:stripeToken],
       amount:      cart_subtotal_cents,
-      description: "Khurram Virani's Jungle Order",
+      description: "Guest's Jungle Order",
       currency:    'cad'
     )
   end
