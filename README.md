@@ -10,13 +10,13 @@ For the administrators, Jungle has an exclusive dashboard that is only accessibl
 
 In short, Jungle is a simple and high-quality e-commerce platform that provides a seamless and engaging shopping experience for customers and a powerful set of tools for administrators.
 
-Below is a demonstration of how the site works and some screen shots:
+Below is a demonstration of how the site works and some screen shots
 
-User Login and checkout
+User Login and checkout:
 
 ![GIF checkout](https://github.com/jsc604/Jungle-rails/blob/master/docs/admin.gif?raw=true)
 
-Admin Dashboard
+Admin Dashboard:
 
 ![Admin dashboard](https://github.com/jsc604/Jungle-rails/blob/master/docs/admin.gif?raw=true)
 
