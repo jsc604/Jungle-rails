@@ -12,6 +12,22 @@ In short, Jungle is a simple and high-quality e-commerce platform that provides 
 
 Below is a demonstration of how the site works and some screen shots:
 
+User Login and checkout
+
+![GIF checkout]()
+
+Admin Dashboard
+
+![GIF Error mode]()
+
+Here are some screenshots of Jungle:
+
+![""]()
+
+![""]()
+
+![""]()
+
 
 
 ## Stripe Testing
@@ -26,3 +42,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Cypress
