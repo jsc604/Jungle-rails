@@ -24,9 +24,15 @@ Here are some screenshots of Jungle:
 
 !["homepage"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.04.31%20PM.png?raw=true)
 
-!["product page"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.05.10%20PM.png?raw=true)
+!["products"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.05.10%20PM.png?raw=true)
+
+!["product page"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.09.19%20PM.png?raw=true)
 
 !["cart"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.06.07%20PM.png?raw=true)
+
+!["payment"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.07.18%20PM.png?raw=true)
+
+!["order page"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.08.01%20PM.png?raw=true)
 
 
 
