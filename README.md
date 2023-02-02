@@ -14,19 +14,19 @@ Below is a demonstration of how the site works and some screen shots:
 
 User Login and checkout
 
-![GIF checkout]()
+![GIF checkout](https://github.com/jsc604/Jungle-rails/blob/master/docs/admin.gif?raw=true)
 
 Admin Dashboard
 
-![GIF Error mode]()
+![Admin dashboard](https://github.com/jsc604/Jungle-rails/blob/master/docs/admin.gif?raw=true)
 
 Here are some screenshots of Jungle:
 
-![""]()
+!["homepage"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.04.31%20PM.png?raw=true)
 
-![""]()
+!["product page"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.05.10%20PM.png?raw=true)
 
-![""]()
+!["cart"](https://github.com/jsc604/Jungle-rails/blob/master/docs/Screenshot%202023-02-01%20at%204.06.07%20PM.png?raw=true)
 
 
 
